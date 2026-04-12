@@ -12,7 +12,7 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech and Enviroments Used
 - Python
 - AWS Rekognition
 - Amazon S3
