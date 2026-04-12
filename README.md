@@ -23,7 +23,7 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 ---
 
 ## ☁️ Architecture Diagram
-![Architecture](docs/architecture.png)
+<img width="1038" height="630" alt="Architecture" src="https://github.com/user-attachments/assets/d0f04642-8c4a-4065-9d71-bec4ed2fb48d" />
 
 ---
 
