@@ -76,10 +76,6 @@ Conclusion
 
 ---
 
-## ⚠️ Notes
-This project uses Amazon Rekognition and requires valid AWS credentials. Ensure your S3 bucket and image are properly configured before running.
-
----
 
 
 
