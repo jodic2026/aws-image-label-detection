@@ -141,7 +141,10 @@ BytesIO from the io module to process image data in memory
 <img width="1477" height="788" alt="image" src="https://github.com/user-attachments/assets/1371b8a5-9994-46f3-baab-311fe5120a19" />
 
 6) Define the detect_labels Function
-Next, I defined a function called detect_labels. This function accepts a photo and a bucket name as input parameters.
+   
+Next, I defined a function called detect_labels.
+
+This function accepts a photo and a bucket name as input parameters.
 
 Within the function, I perform the following steps:
 
