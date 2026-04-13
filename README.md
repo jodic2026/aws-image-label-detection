@@ -43,11 +43,16 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 ---
 
 ## Workflow
-1. Upload image to Amazon S3  
-2. Python script sends request to AWS Rekognition  
-3. Rekognition analyzes the image  
-4. Labels + confidence scores are returned  
-5. Results are displayed and visualized  
+1. Upload image to Amazon S3 
+2. Install AWS Command Line Interface (CLI)
+3. Configure the AWS CLI
+4. Set Up Visual Studio Code by importing libraries
+5. Define the detect_labels Function
+6. Create the main Function
+7. Run the Python Script (Python script sends request to AWS Rekognition)
+8. Rekognition analyzes the image  
+9. Labels + confidence scores are returned 
+10. Results are displayed and visualized
 
 
 ---
