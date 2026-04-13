@@ -201,7 +201,7 @@ I specify the image file name and S3 bucket name.
 I call the detect_labels function using these parameters.
 I print the total number of detected labels.
 
-(Note: I made sure to replace 'image_file_name' and 'bucket_name' with my actual values.)
+(Note: I made sure to replace 'image_file_name' and 'bucket_name' with my actual values from the S3 bucket in AWS Management Console.)
 
 ```python
 def main():
@@ -215,6 +215,85 @@ if __name__ == "__main__":
 ```
 
 <img width="463" height="161" alt="image" src="https://github.com/user-attachments/assets/ed31b5f9-0bd5-4801-9f98-02853f8379a1" />
+
+
+8) Final Code 
+```python
+import boto3
+import matplotlib.pyplot as plt
+import matplotlib.patches as patches
+from PIL import Image
+from io import BytesIO
+
+def detect_labels(photo, bucket):
+    client = boto3.client('rekognition')
+
+    response = client.detect_labels(
+        Image={'S3Object': {'Bucket': bucket, 'Name': photo}},
+        MaxLabels=10)
+
+    print('Detected labels for ' + photo) 
+    print()   
+
+    # Print label information
+    for label in response['Labels']:
+        print("Label:", label['Name'])
+        print("Confidence:", label['Confidence'])
+        print()
+
+    # Load the image from S3
+    s3 = boto3.resource('s3')
+    obj = s3.Object(bucket, photo)
+    img_data = obj.get()['Body'].read()
+    img = Image.open(BytesIO(img_data))
+
+    # Display the image
+    plt.imshow(img)
+    ax = plt.gca()
+
+    # Plot bounding boxes
+    for label in response['Labels']:
+        for instance in label.get('Instances', []):
+            bbox = instance['BoundingBox']
+            left = bbox['Left'] * img.width
+            top = bbox['Top'] * img.height
+            width = bbox['Width'] * img.width
+            height = bbox['Height'] * img.height
+
+            rect = patches.Rectangle((left, top), width, height, linewidth=1, edgecolor='r', facecolor='none')
+            ax.add_patch(rect)
+
+            label_text = label['Name'] + ' (' + str(round(label['Confidence'], 2)) + '%)'
+            plt.text(left, top - 2, label_text, color='r', fontsize=8, bbox=dict(facecolor='white', alpha=0.7))
+
+    plt.show()
+
+    return len(response['Labels'])
+
+def main():
+    photo = 'Makati City 2.jpg'
+    bucket = 'aws-project011'
+    label_count = detect_labels(photo, bucket)
+    print("Labels detected:", label_count)
+
+if __name__ == "__main__":
+    main()
+```
+
+
+9) Run the Python Script
+
+After completing the code, I opened the terminal in the directory where my Python file is located and ran the following command:
+```python
+python awsproject01.py
+```
+
+<img width="1109" height="607" alt="image" src="https://github.com/user-attachments/assets/9bb0f608-1052-4d1e-93cc-32db191168bb" />
+
+Once executed, the script generated an output showing up to 10 detected labels along with their corresponding confidence scores.
+
+A separate window also appeared, displaying the image retrieved from my S3 bucket, with bounding boxes drawn around the detected objects.
+
 
 ---
 ## Sample Output
