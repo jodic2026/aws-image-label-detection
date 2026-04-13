@@ -5,7 +5,7 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 
 ---
 
-## 🛠️ Tech and Enviroments Used
+## Tech and Enviroments Used
 - AWS Rekognition
 - Amazon S3
 - IAM
@@ -16,12 +16,12 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 
 ---
 
-## ☁️ Architecture Diagram
+## Architecture Diagram
 <img width="1038" height="630" alt="Architecture" src="https://github.com/user-attachments/assets/d0f04642-8c4a-4065-9d71-bec4ed2fb48d" />
 
 ---
 
-## 🔄 Workflow
+## Workflow
 1. Upload image to Amazon S3  
 2. Python script sends request to AWS Rekognition  
 3. Rekognition analyzes the image  
@@ -29,7 +29,15 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 5. Results are displayed and visualized  
 
 ---
-## 🛠️ How To Build
+
+## Terminologies
+
+
+
+
+
+---
+## How To Build
 
 
 
@@ -45,7 +53,7 @@ Conclusion
 ---
 
 
-## 📊 Sample Output
+## Sample Output
 
 
 
@@ -62,10 +70,9 @@ Conclusion
 ---
 
 ## 🌍 Use Cases
-- Automated image tagging for content platforms???
-- Smart photo organization systems????
-- Content moderation and filtering????
-- AI-powered search and recommendation systems???
+- Automated image tagging for content platforms (eg. automatically tag product images, categorize items (shoes, bags, electronics), improve search results for users)
+- Smart search systems (eg. search by image content)
+- Content moderation and filtering (eg. detect unsafe or inappropriate content, flag or block harmful images)
 
 ---
 
