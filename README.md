@@ -143,10 +143,11 @@ I retrieve the image from the S3 bucket using boto3 and process it using PIL.
 I use matplotlib to display the image and draw bounding boxes around the detected objects.
 
 
-
+```python
 def detect_labels(photo, bucket):
     # Create a Rekognition client
     client = boto3.client('rekognition')
+
 
     # Detect labels in the photo
     response = client.detect_labels(
@@ -184,6 +185,12 @@ def detect_labels(photo, bucket):
     plt.show()
 
     return len(response['Labels'])
+
+
+
+
+
+
 
 
 
