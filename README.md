@@ -214,19 +214,12 @@ if __name__ == "__main__":
     main()
 ```
 
+<img width="463" height="161" alt="image" src="https://github.com/user-attachments/assets/ed31b5f9-0bd5-4801-9f98-02853f8379a1" />
 
-<img width="424" height="165" alt="image" src="https://github.com/user-attachments/assets/61bc256b-c21f-4ef5-ae54-4b56c18dd481" />
-
-
-
-
-
-
+---
 ## Sample Output
-
-
-
-
+<img width="1117" height="1086" alt="image" src="https://github.com/user-attachments/assets/5f8d545b-fbae-4602-bb00-eb6f09fedd78" />
+---
 ## Conclusion
 
 
