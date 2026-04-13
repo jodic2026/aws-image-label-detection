@@ -52,38 +52,52 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 ---
 ## How To Build
 
-1) Create an Amazon S3 Bucket, assign a bucket name, and upload the photo to be analyzed. 
+1) Create an Amazon S3 Bucket and Upload an Image
+
+I started by creating an Amazon S3 bucket, assigning it a unique name, and uploading the image that I want to analyze.
+
+For this project, I used a sample image from Makati City.
 <img width="816" height="481" alt="image" src="https://github.com/user-attachments/assets/39cf01e0-353a-4c7b-9644-ebfdab3cb8ec" />
-
-In this project, I will be using a sample from Makati City. 
-
-![Makati City 2](https://github.com/user-attachments/assets/5cbb64e7-818d-4599-9373-182632a438be)
 
 <img width="1647" height="611" alt="image" src="https://github.com/user-attachments/assets/f2e03c87-16e1-44ca-a1a9-6b69f902424c" />
 
-2) We need to install the AWS Command Line Interface so that we can interact with AWS Services using commands from our terminal. 
-
+2) Install AWS Command Line Interface (CLI) 
+Next, I installed the AWS Command Line Interface (CLI), which allows me to interact with AWS services directly from my terminal using commands.
 <img width="1109" height="615" alt="image" src="https://github.com/user-attachments/assets/78831159-a777-44de-99cf-8bf9c2963202" />
 
 
-3) After installation, we will configure the AWS CLI by entering the command, 
-- aws configure
+3) Configure the AWS CLI
+After installation, I configured the AWS CLI by running the following command:
 
-Running this command will ask for both the access key and the secret access key. 
-We need these credentials to access and authenticate our AWS account from the AWS CLI.
+aws configure
 
-In order get these access keys, we need to go back to AWS Management Console and search for IAM in the search bar -> Go to Users -> Create User. Since I am using an AWS Sandbox and user is already automatically created for me, I will proceed to the next step. 
+This command prompted me to enter my AWS Access Key ID and Secret Access Key. These credentials are required to authenticate and access my AWS account through the CLI.
 
-(For those who needs to create user, just assign a user name -> click Next -> For the Permission options, choose the option ‘Attach policies directly’ and attach the ‘AdministratorAccess’ policy.)
+To generate these access keys, I went to the AWS Management Console and searched for IAM → Users → Create User.
+
+Since I am using an AWS Sandbox environment where a user is already pre-configured, I skipped the user creation step and proceeded to generating access keys.
+
+(For those who need to create a user: assign a username → click Next → select “Attach policies directly” → attach the “AdministratorAccess” policy.)
 
 <img width="1069" height="282" alt="image" src="https://github.com/user-attachments/assets/92bcc795-f58c-4fd3-aa45-7848d523c49d" />
 
 <img width="1700" height="463" alt="image" src="https://github.com/user-attachments/assets/158bec99-c65c-484a-8486-6b72f35282e9" />
 
-4) Since account is already made for me, I went to Security Credentials -> Create access key -> Use Case -> Command Line Interface (CLI) -> assign a description tag value -> get your access keys. 
+After that, I navigated to Security Credentials → Create Access Key → Command Line Interface (CLI), added a description tag, and generated my access keys.
 
 <img width="1360" height="374" alt="image" src="https://github.com/user-attachments/assets/6833d109-4e4f-4d0c-a772-2d3f5f4e438a" />
 
+I then returned to the CLI and entered my credentials. It looked like this:
+
+C:\Users\My PC>aws configure
+AWS Access Key ID [****************PZFX]: ****************
+AWS Secret Access Key [****************EE9b]:: *******************
+Default region name [us-east-1]: us-east-1
+Default output format [None]: None
+
+At this point, I successfully configured the AWS CLI.
+
+4)
 
 
 ## Sample Output
