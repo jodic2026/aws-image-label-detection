@@ -315,10 +315,10 @@ In this project, I successfully built an image label detection system using AWS 
 
 From a real-world perspective, this solution can be applied in various scenarios such as:
 
-Content moderation – automatically detecting inappropriate or sensitive images
-E-commerce – tagging and categorizing product images, improve search results for users
-Security and surveillance – identifying objects, people, or unusual activity
-Smart city applications – analyzing urban images (e.g., traffic, infrastructure, public spaces)
+- Content moderation – automatically detecting inappropriate or sensitive images
+- E-commerce – tagging and categorizing product images, improve search results for users
+- Security and surveillance – identifying objects, people, or unusual activity
+- Smart city applications – analyzing urban images (e.g., traffic, infrastructure, public spaces)
 
 ---
 
