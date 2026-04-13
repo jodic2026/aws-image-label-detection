@@ -185,6 +185,7 @@ def detect_labels(photo, bucket):
     plt.show()
 
     return len(response['Labels'])
+```
 
 
 
