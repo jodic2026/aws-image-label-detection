@@ -236,7 +236,7 @@ if __name__ == "__main__":
 ---
 ## Roadblocks/Challenges: 
 - The experience of doing this project would have been elevated I understood Python script. 
-- I was encountering errors because I was not saving the script in IDE.
+- I was encountering errors because it's either, I was not saving the script in IDE, I typed wrong commands in the AWS CLI Terminal (missing letters or file type like .jpg)
 
 ---
 
