@@ -205,6 +205,7 @@ def main():
     bucket = 'bucket_name'
     label_count = detect_labels(photo, bucket)
     print("Labels detected:", label_count)
+
 if __name__ == "__main__":
     main()
 
