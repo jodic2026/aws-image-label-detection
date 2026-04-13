@@ -12,6 +12,7 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 - Python
 - Boto3
 - Matplotlib
+- Visual Studio Code
 
 ---
 
