@@ -302,12 +302,17 @@ A separate window also appeared, displaying the image retrieved from my S3 bucke
 ---
 
 ## Conclusion
+In this project, I successfully built an image label detection system using AWS services. By integrating Amazon S3, AWS CLI, and Amazon Rekognition through Python, I was able to upload images, analyze them, and generate meaningful labels along with confidence scores.
 
+From a real-world perspective, this solution can be applied in various scenarios such as:
 
-
-
+Content moderation – automatically detecting inappropriate or sensitive images
+E-commerce – tagging and categorizing product images, improve search results for users
+Security and surveillance – identifying objects, people, or unusual activity
+Smart city applications – analyzing urban images (e.g., traffic, infrastructure, public spaces)
 
 ---
+
 ## Roadblocks/Challenges: 
 - The experience of doing this project would have been elevated I understood Python script. 
 - I was encountering errors because it's either, I was not saving the script in IDE, I typed wrong commands in the AWS CLI Terminal (missing letters or file type like .jpg)
@@ -320,13 +325,6 @@ A separate window also appeared, displaying the image retrieved from my S3 bucke
 - How to configure AWS CLI for secure access
 - How to integrate AWS Rekognition with Python
 - How cloud-based image recognition works in real-world scenarios
-
----
-
-## 🌍 Use Cases
-- Automated image tagging for content platforms (eg. automatically tag product images, categorize items (shoes, bags, electronics), improve search results for users)
-- Smart search systems (eg. search by image content instead of text)
-- Content moderation and filtering (eg. detect unsafe or inappropriate content, flag or block harmful images)
 
 ---
 ## 👤 Author
