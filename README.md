@@ -12,17 +12,28 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 - Python
 - Boto3
 - Matplotlib
-- Pillow
 
 ---
 
 ## Terminologies
 
-- S3 -
-- AWS Command line interface(CLI) -
-- boto3
-- matplotlib
-- PIL (Python Imaging Library)
+☁️ S3 (Simple Storage Service) - A cloud storage service from Amazon Web Services used to store and retrieve files like images, videos, and documents.
+
+💻 AWS Command Line Interface (CLI) - A tool that lets you interact with AWS services (like S3 or EC2) using commands in your terminal instead of the web console.
+
+🐍 boto3 - The official Python SDK for AWS that allows Python code to communicate with AWS services like Amazon S3 and Amazon Rekognition.
+
+📊 matplotlib - A Python library used for creating graphs and visualizations. In the project, it’s used to display images and draw bounding boxes.
+
+🖼️ PIL (Python Imaging Library) - A Python library (via Pillow) used to open, manipulate, and process images.
+
+🔄 BytesIO - A class from Python’s built-in io module that allows you to handle binary data (like images) in memory as if it were a file.
+
+🔐 IAM (Identity and Access Management) - A service in Amazon Web Services that controls who can access AWS resources and what actions they are allowed to perform.
+
+🪣 Amazon S3 Bucket - A container in Amazon S3 where files (e.g. images) are stored in the cloud.
+
+📦 Importing Libraries - The process of loading external Python modules (like boto3 or matplotlib) into the script so their functions can be used. 
 
 ---
 ## Architecture Diagram
