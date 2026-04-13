@@ -16,6 +16,14 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 
 ---
 
+## Terminologies
+
+- S3 -
+- AWS Command line interface(CLI) -
+- boto3
+- 
+
+---
 ## Architecture Diagram
 <img width="1038" height="630" alt="Architecture" src="https://github.com/user-attachments/assets/d0f04642-8c4a-4065-9d71-bec4ed2fb48d" />
 
@@ -27,13 +35,6 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 3. Rekognition analyzes the image  
 4. Labels + confidence scores are returned  
 5. Results are displayed and visualized  
-
----
-
-## Terminologies
-
-
-
 
 
 ---
