@@ -60,14 +60,14 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 
 
 
-Conclusion
+## Conclusion
 
 
 
 
 
 ---
-Roadblocks/Challenges: 
+## Roadblocks/Challenges: 
 - The experience of doing this project would have been elevated I understood Python script. 
 - I was encountering errors because I was not saving the script in IDE.
 
