@@ -6,9 +6,10 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 ---
 
 ## 🛠️ Tech and Enviroments Used
-- Python
 - AWS Rekognition
 - Amazon S3
+- IAM
+- Python
 - Boto3
 - Matplotlib
 - Pillow
