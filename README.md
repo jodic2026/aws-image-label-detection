@@ -95,12 +95,8 @@ After that, I navigated to Security Credentials → Create Access Key → Comman
 <img width="1360" height="374" alt="image" src="https://github.com/user-attachments/assets/6833d109-4e4f-4d0c-a772-2d3f5f4e438a" />
 
 I then returned to the CLI and entered my credentials. It looked like this:
+<img width="485" height="107" alt="image" src="https://github.com/user-attachments/assets/714e7f14-3696-4f87-b509-9dbf83c24cea" />
 
-C:\Users\My PC>aws configure
-AWS Access Key ID [****************PZFX]: ****************
-AWS Secret Access Key [****************EE9b]:: *******************
-Default region name [us-east-1]: us-east-1
-Default output format [None]: None
 
 At this point, I successfully configured the AWS CLI.
 
