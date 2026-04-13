@@ -203,12 +203,14 @@ I print the total number of detected labels.
 def main():
     photo = 'image_file_name'
     bucket = 'bucket_name'
-
     label_count = detect_labels(photo, bucket)
     print("Labels detected:", label_count)
-
 if __name__ == "__main__":
     main()
+
+
+<img width="424" height="165" alt="image" src="https://github.com/user-attachments/assets/61bc256b-c21f-4ef5-ae54-4b56c18dd481" />
+
 
 
 
