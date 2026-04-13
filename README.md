@@ -5,13 +5,6 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 
 ---
 
-## 🎯 Objectives
-- Integrate AWS Rekognition with Python
-- Automate image analysis using cloud services
-- Demonstrate real-world use of computer vision APIs
-
----
-
 ## 🛠️ Tech and Enviroments Used
 - Python
 - AWS Rekognition
@@ -35,8 +28,7 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 5. Results are displayed and visualized  
 
 ---
-
-Step-by-step Procedure 
+## 🛠️ How To Build
 
 
 
