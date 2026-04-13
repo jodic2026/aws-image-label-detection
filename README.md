@@ -105,7 +105,28 @@ At this point, I successfully configured the AWS CLI.
 
 
 
-4)
+4) Set Up My Development Environment
+
+I installed my preferred IDE (Virtual Studio Code) and created a .py file for this project.
+
+Next, I opened a terminal and installed the required libraries:
+
+pip install boto3
+pip install matplotlib
+
+5) Import Required Libraries
+I then added the necessary libraries for this project:
+
+import boto3
+import matplotlib.pyplot as plt
+import matplotlib.patches as patches
+from PIL import Image
+from io import BytesIO
+
+boto3 to interact with AWS services
+matplotlib for visualization
+PIL (Python Imaging Library) to handle image data
+BytesIO from the io module to process image data in memory
 
 
 ## Sample Output
