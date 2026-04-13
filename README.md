@@ -56,8 +56,7 @@ This project is a cloud-based image labeling system built using Amazon Rekogniti
 1) Create an Amazon S3 Bucket and Upload an Image
 
 I started by creating an Amazon S3 bucket, assigning it a unique name, and uploading the image that I want to analyze.
-
-For this project, I used a sample image from Makati City.
+(For this project, I used a sample image from Makati City.)
 <img width="816" height="481" alt="image" src="https://github.com/user-attachments/assets/39cf01e0-353a-4c7b-9644-ebfdab3cb8ec" />
 
 <img width="1647" height="611" alt="image" src="https://github.com/user-attachments/assets/f2e03c87-16e1-44ca-a1a9-6b69f902424c" />
