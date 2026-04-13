@@ -191,10 +191,6 @@ def detect_labels(photo, bucket):
 
 
 
-
-
-
-
 7) Create the main Function
 
 After defining the detect_labels function, I created a main function to test it.
@@ -216,7 +212,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    ```
+```
 
 
 <img width="424" height="165" alt="image" src="https://github.com/user-attachments/assets/61bc256b-c21f-4ef5-ae54-4b56c18dd481" />
