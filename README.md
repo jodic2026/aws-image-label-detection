@@ -219,7 +219,9 @@ if __name__ == "__main__":
 ---
 ## Sample Output
 <img width="1117" height="1086" alt="image" src="https://github.com/user-attachments/assets/5f8d545b-fbae-4602-bb00-eb6f09fedd78" />
+
 ---
+
 ## Conclusion
 
 
