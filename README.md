@@ -61,9 +61,16 @@ For this project, I used a sample image from Makati City.
 
 <img width="1647" height="611" alt="image" src="https://github.com/user-attachments/assets/f2e03c87-16e1-44ca-a1a9-6b69f902424c" />
 
+
+
+
+
 2) Install AWS Command Line Interface (CLI) 
 Next, I installed the AWS Command Line Interface (CLI), which allows me to interact with AWS services directly from my terminal using commands.
 <img width="1109" height="615" alt="image" src="https://github.com/user-attachments/assets/78831159-a777-44de-99cf-8bf9c2963202" />
+
+
+
 
 
 3) Configure the AWS CLI
@@ -96,6 +103,10 @@ Default region name [us-east-1]: us-east-1
 Default output format [None]: None
 
 At this point, I successfully configured the AWS CLI.
+
+
+
+
 
 4)
 
