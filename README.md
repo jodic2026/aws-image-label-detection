@@ -327,7 +327,7 @@ From a real-world perspective, this solution can be applied in various scenarios
 
 ## Roadblocks/Challenges: 
 - The experience of doing this project would have been elevated I understood Python script. 
-- I was encountering errors because it's either, I was not saving the script in IDE, I typed wrong commands in the AWS CLI Terminal (missing letters or file type like .jpg)
+- I was encountering output errors because it's either, I was not saving the script in IDE, I typed wrong commands in the AWS CLI Terminal (missing letters or file type like .jpg)
 
 ---
 
